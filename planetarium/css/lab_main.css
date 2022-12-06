@@ -1,0 +1,33 @@
+box-log {
+  border: 1px solid #000;
+}
+
+.box-log:nth-child(1) {
+  flex: 1;
+  margin-inline-start: 2rem;
+}
+
+.box-log:nth-child(2) {
+  flex: 2;
+  margin-inline-end: 2rem;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.box-content-log-item {
+  border: 1px solid #000;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th,
+td {
+  border: 1px solid #000;
+}
